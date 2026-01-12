@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Figtree_Bold";
+    src: url("/assets/fonts/static/Figtree-ExtraBold.ttf");
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Figtree_Medium";
+    src: url("/assets/fonts/static/Figtree-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@theme {
+    --color-principal: #f4d04eff;
+    --font-bold: "Figtree_Bold" system-ui, sans-serif;
+    --font-medium: "Figtree_Medium", system-ui, sans-serif;
+}
